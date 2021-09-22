@@ -55,3 +55,10 @@ p{
 li {
     font-size: 1.8rem;
 }
+
+/*Reticula*/
+.reticula{
+    padding: 10rem;
+    text-align: center;
+    
+}
