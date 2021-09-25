@@ -75,3 +75,25 @@ li {
     height: 100vh;
     border-radius: 1rem;
 }
+
+/*Catalogo Pelicualas*/
+
+.Catalogo{
+    display: grid;
+    justify-content: normal;
+    text-align: center;
+}
+
+.Catalogo th{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.Catalogo img{
+    width: 25rem;
+    height: 38rem;
+    border-radius: .5rem;
+}
+
