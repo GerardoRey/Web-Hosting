@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LectorPDF</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body class="contenedor">
+    <h1 style="font-family: Georgia; font-size: 30px">
+        Gerardo Antonio Reyes Armenta
+      </h1>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Practicas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Elements.html">Elemets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="PReticula.html">Practica Reticula</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Lector.html">Lector de PDF</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="catalogo.html">Catalogo de Peliculas</a>
+          </li>
+        </ul>
+      </nav>
+    <!--Navbar Practicas-->
+    <br><br>
+    <div class="Lector">
+        <h1>
+          Lector de PDF <br />
+          Carta descriptiva de Programacion Web
+        </h1>
+        <object class="LectorPDF" data="CartaDescriptiva.pdf" type="application/pdf">
+          <embed src="CartaDescriptiva.pdf" type="application/pdf" />
+        </object>
+      </div>
+      <!--Lecto de PDF-->
+</body>
+
+</html>
